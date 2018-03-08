@@ -1,0 +1,67 @@
+" set nocompatible              " be iMproved, required
+filetype off                  " required
+
+call plug#begin('~/.vim/bundle')
+
+Plug 'tpope/vim-rsi'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'git://git.wincent.com/command-t.git'
+" Plugin 'rstacruz/sparkup'
+Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'Shougo/neocomplete.vim'
+Plug 'SirVer/ultisnips'
+"" Plugin 'honza/vim-snippets'
+Plug 'vim-scripts/peaksea'
+Plug 'vim-scripts/molokai'
+Plug 'vim-scripts/Emmet.vim'
+Plug 'vim-scripts/ack.vim'
+Plug 'vim-scripts/Auto-Pairs'
+Plug 'Raimondi/delimitMate'
+Plug 'docunext/closetag.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/bufexplorer.zip'
+Plug 'vim-scripts/ctrlp.vim'
+Plug 'vim-scripts/FastFold'
+Plug 'vim-scripts/goyo.vim'
+Plug 'vim-scripts/indentLine.vim'
+Plug 'vim-scripts/jsbeautify'
+Plug 'vim-scripts/mayansmoke'
+Plug 'vim-scripts/nginx.vim'
+Plug 'vim-scripts/SuperTab'
+Plug 'vim-scripts/syntastic'
+Plug 'vim-scripts/taglist.vim'
+Plug 'vim-scripts/Markdown'
+"Plug 'vim-scripts/vim-multiple-cursors'
+Plug 'vim-scripts/snipmate-snippets'
+Plug 'vim-scripts/surround.vim'
+Plug 'tengzhang/vim-snippets'
+Plug 'junegunn/vim-easy-align'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'maxbrunsfeld/vim-yankstack'
+Plug 'morhetz/gruvbox'
+" Plug 'Valloric/YouCompleteMe'
+Plug 'hdima/python-syntax'
+Plug 'hynek/vim-python-pep8-indent'
+Plug 'fisadev/vim-isort'
+Plug 'spf13/PIV'
+Plug 'elzr/vim-json', {'for': 'json'}
+Plug 'bronson/vim-trailing-whitespace'
+call plug#end()            " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+"
